@@ -112,3 +112,44 @@ footer P{
     text-align:center;
     background:white;
 }
+
+// Responsive Design
+
+/* For tablets */
+
+@media (max-width:992px){
+    body{
+        grid-template-columns:200px 1fr;
+    }
+
+    .stats{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .charts{
+        grid-template-columns:1fr;
+    }
+
+}
+
+/* For mobile devices */
+
+@media (max-width:768px){
+
+    body{
+        grid-template-columns:1fr;
+    }
+
+    .sidebar{
+        position:static;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .top-bar{
+        flex-direction:column;
+        gap:15px;
+    }
+}
