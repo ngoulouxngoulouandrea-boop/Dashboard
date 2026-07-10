@@ -4,8 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <aside class="sidebar">
+        <h2>Dashboard</h2>
+        <nav>
+            <ul>
+                <li class="active">Accueil</li>
+                <li>Utilisateurs</li>
+                <li>Produits</li>
+                <li>Commandes</li>
+                <li>Paramètres</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="top-bar">
+            <h1>Dashboard</h1>
+            <div class="user">
+                <img src="images/avatar.jpg" alt="Utilisateur">
+                <span>Admin</span>
+            </div>
+        </header>
+
+        <main class="content">
+            
+            <section class="stats">
+                <div class="card">
+                    <h3>Revenue</h3>
+                    <p>$45,230</p>
+                </div>
+                <div class="card">
+                    <h3>Users</h3>
+                    <p>1,234</p>
+                </div>
+
+                <div class="card">
+                    <h3>Orders</h3>
+                    <p>456</p>
+                </div>
+
+                <div class="card">
+                    <h3>Growth</h3>
+                    <p>+23%</p>
+                </div>
+            </section>
+
+            <section class="table-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Email</th>
+                            <th>Rôle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alice</td>
+                            <td>alice@email.com</td>
+                            <td>Admin</td>
+                        </tr>
+                        <tr>
+                            <td>Bob</td>
+                            <td>bob@email.com</td>
+                            <td>Utilisateur</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
+            <section class="charts">
+                <div class="chart">
+                    Graphique 1
+                </div>
+                <div class="chart">
+                    Graphique 2
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Mon Application. Tous droits réservés.</p>
+        </footer>
+
+    </main>
 </body>
 </html>
